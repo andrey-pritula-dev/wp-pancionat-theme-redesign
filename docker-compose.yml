@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  wordpress:
+    image: wordpress:latest
+    container_name: wordpress
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: user
+      WORDPRESS_DB_PASSWORD: password
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - ./themes/:/var/www/html/wp-content/themes/   # Монтируем темы
+      - ./plugins/:/var/www/html/wp-content/plugins/ # Монтируем плагины (если есть)
+      - ./wp-config.php:/var/www/html/wp-config.php  # Кастомный конфиг
+      - ./custom-php.ini:/usr/local/etc/php/conf.d/custom-php.ini # Кастомные настройки PHP
+      - wordpress_data:/var/www/html
+
+  db:
+    image: mysql:5.7
+    container_name: db
+    restart: always
+    environment:
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: rootpassword
+    volumes:
+      - db_data:/var/lib/mysql
+
+  composer:
+    image: composer:2
+    container_name: composer
+    working_dir: /app
+    volumes:
+      - ./themes:/app/themes
+      - ./plugins:/app/plugins
+    command: ["composer", "--version"]
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: pma
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: rootpassword
+
+volumes:
+  wordpress_data:
+  db_data:

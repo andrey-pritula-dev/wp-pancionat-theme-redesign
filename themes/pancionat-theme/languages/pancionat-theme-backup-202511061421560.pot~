@@ -1,0 +1,139 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Pancionat Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-06 11:31+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.3.27\n"
+"X-Domain: pancionat-theme"
+
+#: inc/customize.php:99
+msgid "Address 1 (RU)"
+msgstr ""
+
+#: inc/customize.php:118
+msgid "Address 1 (UA)"
+msgstr ""
+
+#: inc/customize.php:137
+msgid "Address 2 (RU)"
+msgstr ""
+
+#: inc/customize.php:156
+msgid "Address 2 (UA)"
+msgstr ""
+
+#. Author of the theme
+msgid "Andrew Pritula"
+msgstr ""
+
+#: header.php:19
+msgid "Caring for people 24/7"
+msgstr ""
+
+#: footer.php:41
+msgid "Contacts"
+msgstr ""
+
+#. Description of the theme
+msgid "Custom theme for pancionat website"
+msgstr ""
+
+#: inc/customize.php:81
+msgid "Footer"
+msgstr ""
+
+#: inc/customize.php:66
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/setup.php:24
+msgid "Footer menu RU"
+msgstr ""
+
+#: inc/setup.php:23
+msgid "Footer menu UA"
+msgstr ""
+
+#. Name of the template
+#: front-page.php:2
+msgid "Front Page"
+msgstr ""
+
+#: inc/customize.php:7
+msgid "Heder social"
+msgstr ""
+
+#: inc/customize.php:226
+msgid "Hero Image"
+msgstr ""
+
+#: inc/customize.php:206
+msgid "Hero Section"
+msgstr ""
+
+#: inc/customize.php:208
+msgid "Image for hero section"
+msgstr ""
+
+#: inc/setup.php:19
+msgid "Main menu RU"
+msgstr ""
+
+#: inc/setup.php:21
+msgid "Main menu UA"
+msgstr ""
+
+#: footer.php:30
+msgid "Menu"
+msgstr ""
+
+#: inc/setup.php:20
+msgid "Mobile menu RU"
+msgstr ""
+
+#: inc/setup.php:22
+msgid "Mobile menu UA"
+msgstr ""
+
+#. Name of the theme
+msgid "Pancionat Theme"
+msgstr ""
+
+#: inc/customize.php:175
+msgid "Phone 1"
+msgstr ""
+
+#: inc/customize.php:194
+msgid "Phone 2"
+msgstr ""
+
+#. Name of the template
+#: services-page.php:2
+msgid "Services Page"
+msgstr ""
+
+#: inc/customize.php:44
+msgid "Telegram number"
+msgstr ""
+
+#: inc/customize.php:83
+msgid "Text for footer"
+msgstr ""
+
+#: inc/customize.php:9
+msgid "Text for social in header"
+msgstr ""
+
+#: inc/customize.php:25
+msgid "Viber number"
+msgstr ""

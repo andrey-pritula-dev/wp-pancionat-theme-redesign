@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pancionat Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-11-03 15:34+0000\n"
+"PO-Revision-Date: 2025-11-06 17:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian (Ukraine)\n"
+"Language: uk_UA\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.0; wp-6.8.3; php-8.3.27\n"
+"X-Domain: pancionat-theme"
+
+#. Name of the template
+#: about-us-page.php:2
+msgid "About Us Page"
+msgstr "Сторiнка Про нас"
+
+#: inc/customize.php:99
+msgid "Address 1 (RU)"
+msgstr "Адреса 1 (RU)"
+
+#: inc/customize.php:118
+msgid "Address 1 (UA)"
+msgstr "Адреса 1 (UA)"
+
+#: inc/customize.php:137
+msgid "Address 2 (RU)"
+msgstr "Адреса 2 (RU)"
+
+#: inc/customize.php:156
+msgid "Address 2 (UA)"
+msgstr "Адреса 2 (UA)"
+
+#. Author of the theme
+msgid "Andrew Pritula"
+msgstr "Андрiй Притула"
+
+#. Name of the template
+#: home.php:2
+msgid "Blog Page"
+msgstr "Сторiнка блогу"
+
+#: header.php:19
+msgid "Caring for people 24/7"
+msgstr "Догляд за людьми 24/7"
+
+#: footer.php:41
+msgid "Contacts"
+msgstr "Контакти"
+
+#. Name of the template
+#: contacts-page.php:2
+msgid "Contacts Page"
+msgstr "Сторiнка контактiв"
+
+#. Description of the theme
+msgid "Custom theme for pancionat website"
+msgstr "Спеціальна тема для веб-сайту пансiоната"
+
+#: inc/customize.php:213
+msgid "Email"
+msgstr "Email"
+
+#: inc/customize.php:81
+msgid "Footer"
+msgstr "Нижній колонтитул"
+
+#: inc/customize.php:66
+msgid "Footer Logo"
+msgstr "Лого у Нижньому колонтитулi"
+
+#: inc/setup.php:24
+msgid "Footer menu RU"
+msgstr "Меню у Нижньому колонтитулi RU"
+
+#: inc/setup.php:23
+msgid "Footer menu UA"
+msgstr "Меню у Нижньому колонтитулi UA"
+
+#. Name of the template
+#: front-page.php:2
+msgid "Front Page"
+msgstr "Головна сторiнка"
+
+#: inc/customize.php:7
+msgid "Heder social"
+msgstr "Соц мережi в хедерi"
+
+#: inc/customize.php:244
+msgid "Hero Image"
+msgstr "Хиро зображення"
+
+#: inc/customize.php:225
+msgid "Hero Section"
+msgstr "Хиро секцiя"
+
+#: inc/customize.php:227
+msgid "Image for hero section"
+msgstr "Зображення для Хиро секцii"
+
+#: inc/setup.php:19
+#| msgid "Main menu"
+msgid "Main menu RU"
+msgstr "Головне меню РУ"
+
+#: inc/setup.php:21
+msgid "Main menu UA"
+msgstr "Головне меню УКР"
+
+#: footer.php:30
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/setup.php:20
+msgid "Mobile menu RU"
+msgstr "Мобiльне меню РУ"
+
+#: inc/setup.php:22
+msgid "Mobile menu UA"
+msgstr "Мобiльне меню УКР"
+
+#: page.php:23
+msgid "Pages:"
+msgstr "Стрiнки:"
+
+#. Name of the theme
+msgid "Pancionat Theme"
+msgstr "Тема Пансiонат"
+
+#: inc/customize.php:175
+msgid "Phone 1"
+msgstr "Телефон 1"
+
+#: inc/customize.php:194
+msgid "Phone 2"
+msgstr "Телефон 2"
+
+#. Name of the template
+#: page-reviews.php:2
+msgid "Reviews Page"
+msgstr "Сторiнка Вiдгукiв"
+
+#. Name of the template
+#: services-page.php:2
+msgid "Services Page"
+msgstr "Сторiнка послуг"
+
+#: inc/customize.php:44
+msgid "Telegram number"
+msgstr "Номер Телеграм"
+
+#: inc/customize.php:83
+msgid "Text for footer"
+msgstr "Текст у Нижньому колонтитулi"
+
+#: inc/customize.php:9
+msgid "Text for social in header"
+msgstr "Текст для соц мереж в хедерi"
+
+#: inc/customize.php:25
+msgid "Viber number"
+msgstr "Номер Вайбер"
+
+#: page.php:37
+msgid "На жаль, тут поки що немає контенту."
+msgstr "На жаль, тут поки що немає контенту."
+
+#: page.php:36
+msgid "Нічого не знайдено"
+msgstr "Нічого не знайдено"
+
+#: template-parts/about-info.php:17
+msgid "років досвіду"
+msgstr "років досвіду"
