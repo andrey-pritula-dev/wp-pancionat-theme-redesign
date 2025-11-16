@@ -11,11 +11,23 @@ $menu_location  = ( Locale::RUSSIAN === get_locale() ) ? array( 'primary_ru', 'm
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<!-- Google Tag Manager -->
 	<?php // phpcs:disable WordPress.WP.EnqueuedResources.NonEnqueuedScript ?>
+	<!-- Тег Google (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-4XBR7B9WWD"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-
-
+		gtag('config', 'G-4XBR7B9WWD');
+	</script>
+	<script type="text/javascript">
+		(function(d, w, s) {
+		var widgetHash = 'ra2amprk354hznevxxut', gcw = d.createElement(s); gcw.type = 'text/javascript'; gcw.async = true;
+		gcw.src = '//widgets.binotel.com/getcall/widgets/'+ widgetHash +'.js';
+		var sn = d.getElementsByTagName(s)[0]; sn.parentNode.insertBefore(gcw, sn);
+		})(document, window, 'script');
+	</script>
 	<?php // phpcs:enable WordPress.WP.EnqueuedResources.NonEnqueuedScript ?>
 	<?php wp_head(); ?>
 </head>
